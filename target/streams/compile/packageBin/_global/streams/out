@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\soumy\IdeaProjects\SparkLearning\target\scala-2.11\sparklearning_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\soumy\IdeaProjects\SparkLearning\target\scala-2.11\classes\HelloWorld$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloWorld.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\soumy\IdeaProjects\SparkLearning\target\scala-2.11\classes\HelloWorld.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	retail_db[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\soumy\IdeaProjects\SparkLearning\target\scala-2.11\classes\retail_db[0m
+[0m[[0m[0mdebug[0m] [0m[0m	retail_db\GetRevenuePerOrder$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\soumy\IdeaProjects\SparkLearning\target\scala-2.11\classes\retail_db\GetRevenuePerOrder$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	retail_db\GetRevenuePerOrder$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\soumy\IdeaProjects\SparkLearning\target\scala-2.11\classes\retail_db\GetRevenuePerOrder$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	retail_db\GetRevenuePerOrder$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\soumy\IdeaProjects\SparkLearning\target\scala-2.11\classes\retail_db\GetRevenuePerOrder$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	retail_db\GetRevenuePerOrder$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\soumy\IdeaProjects\SparkLearning\target\scala-2.11\classes\retail_db\GetRevenuePerOrder$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	retail_db\GetRevenuePerOrder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\soumy\IdeaProjects\SparkLearning\target\scala-2.11\classes\retail_db\GetRevenuePerOrder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
