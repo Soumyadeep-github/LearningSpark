@@ -50,7 +50,7 @@ object MovieRatingsBroadcastVar extends App{
     (row(1), row(2))
   })
     val mappedRatings = ratingsNecessaryColumns.mapValues(x => (x.toFloat,1.0))
-    val reducedRatings = mappedRatings.reduceByKey((x,y) => (x._1 + y._1.toFloat, x._2 + y._2))
+    val reducedRatings = mappedRatings.reduceByKey((x,y) => (x._1 + y._1, x._2 + y._2))
     val filteredRDD = reducedRatings.filter(x => x._2._2 >= 1000)
     val ratingsProcessed = filteredRDD.mapValues(x => x._1/x._2).
       filter(x => x._2 > 4.0)
@@ -58,11 +58,11 @@ object MovieRatingsBroadcastVar extends App{
 //    val moviesRatings = ratingsProcessed.map(x => {
 //      movieIdsBroadcast.value.eq(x._1)
 //    })
-    ratingsProcessed.flatMap { case(key, value) =>
-      moviesLookup.value.get(key).map {otherValue =>
-        (key, (value, otherValue))
-      }
-    }.collect.foreach(println)
+    ratingsProcessed.flatMap {
+    case (key, value) =>
+      moviesLookup.value.get(key).
+        map(otherValue => (otherValue, value))
+  }.collect.foreach(println)
 
     scala.io.StdIn.readLine()
 }
